@@ -1,0 +1,422 @@
+/* -------------------------------------- */
+/* SlimDark CSS created by /u/Calorie-Kin */
+/* -------------------------------------- */
+
+#header {
+    background: url(http://i.imgur.com/qwFzXUU.png) repeat-x #111 top right;
+    height: 180px;
+    margin: 0 0 10px;
+    position: relative;
+    z-index: 99;
+}
+#header-img-a {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: -75px;
+}
+#sr-header-area {
+    background: #F5F5F5;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 12px;
+    height: 24px;
+    line-height: 22px;
+    text-transform: none;
+    white-space: nowrap;
+}
+#header-container {
+    background: #111;
+    border-bottom: 1px solid #dcdcdc;
+    border-top: none;
+    bottom: 0;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+#header-banner {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    height: 43px;
+}
+.pagename {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+    vertical-align: top;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.pagename a {
+    color: #CCC!important;
+}
+.tabmenu li {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold !important;
+    display: inline-block;
+    line-height: 37px;
+    list-style-type: none;
+    margin: 0;
+    vertical-align: top;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.tabmenu li a {
+    background: #fff;
+    background: none;
+    border: none;
+    border-width: 0px;
+    color: #CCC!important;
+}
+.tabmenu li.selected a {
+    background: none;
+    border: none;
+    border-width: 0px;
+    color: #ff4500!important;
+}
+.tabmenu li.disabled a:hover {
+    background: none;
+    border: none;
+    border-width: 0px;
+    color: #FFF!important;
+}
+.tabmenu li.disabled a.contribute {
+    background: none;
+    border: none;
+    border-width: 0px;
+    color: #2b4758;
+}
+.tabmenu li.disabled a.contribute:hover {
+    background: none;
+    border: none;
+    border-width: 0px;
+    color: #FFF!important;
+}
+.tabmenu li.selected a.contribute {
+    background: none;
+    border: none;
+    border-width: 0px;
+    color: #2b4758;
+    font-weight: bold;
+}
+.tabmenu li.disabled a,
+.tabmenu li.selected a {
+    border: none;
+}
+.logged-in {
+    background: none;
+    border: none;
+    border-radius: 3px;
+    margin: 0 0 14px;
+    padding: 2px 6px 5px;
+    text-transform: uppercase;
+}
+#header-account a {
+    color: #CCC;
+    font-weight: bold;
+}
+body {
+    background: #ECECEC;
+    color: #111;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
+}
+.side .spacer {
+    margin: 5px 0 10px;
+}
+.titlebox {
+    font-size: 12px;
+    width: 100%!important;
+    padding: 15px;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-bottom: none;
+    display: inline-block;
+}
+.btn-whoaverse.contribute {
+    width: 100%;
+    height: 31px;
+    color: #FFF;
+    background: #427FED;
+    background-image: -webkit-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: -moz-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: -o-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: -ms-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: linear-gradient(to bottom, #4D90FE, #4787ED);
+    border: 1px solid #3079ED;
+    border-radius: 2px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+.btn-whoaverse.contribute:hover {
+    background: #4285F4;
+    border: 1px solid #4285F4;
+}
+.btn-whoaverse.contribute:active {
+    background: #2C56B1;
+    border: 1px solid #369;
+    top: 0px;
+}
+.side {
+    padding: 0px;
+    margin-top: -5px;
+}
+#form-xxxxx {
+    display: inline-block;
+}
+#container > div.side > div:nth-child(1) > form {
+    padding-bottom: 5px;
+    background: #F5F5F5;
+    border: 1px solid #DDD;
+    z-index: 11;
+    padding: 6px 6px 5px 5px;
+}
+.side .form-control {
+    width: 100%;
+    padding: 6px 6px 5px 25px;
+    background: url("//a.thumbs.redditmedia.com/3d8zmkZyO9wl45GRTuHWvhvUU1dOy0Ui-zvRLSC5088.png") 0 0 no-repeat #FFF;
+    border: 1px solid #DDD;
+    border-radius: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    margin-bottom: 0px!important;
+}
+#q {
+    height: 26px;
+}
+#container {
+    background: none;
+    border: none;
+}
+.btn-group-xs>.btn,
+.btn-xs {
+    font-family: verdana, arial, helvetica, sans-serif!important;
+    background: #4B7!important;
+    border: 1px solid #4B7!important;
+    font-size: 10px!important;
+    line-height: 10px!important;
+    font-style: italic;
+    font-weight: normal!important;
+    text-transform: capitalize!important;
+    display: block;
+    margin-bottom: 9px;
+}
+.titlebox > button.btn-whoaverse-paging.btn-xs.btn-default.btn-unsub {
+    float: left;
+    margin-right: 5px;
+}
+.titlebox .subscribers:after {
+    content: " readers";
+}
+.titlebox .subscribers .word {
+    display: none;
+}
+.subscribers {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12px;
+}
+.users-online {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 80%;
+    font-style: italic;
+    color: gray
+}
+.users-online:before,
+.users-online .word {
+    display: none
+}
+.users-online .number:before {
+    content: "("
+}
+.users-online .number:after {
+    content: " here)"
+}
+.side .titlebox .whoaversename a {
+    font-size: 17px;
+    color: #111;
+    font-family: "Lato", sans-serif;
+}
+.side .titlebox .md h3 {
+    border: 1px solid #DDD;
+    background-color: #111;
+    color: #FFF;
+    font-weight: bold;
+    font-style: normal;
+    padding: 10px;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    line-height: 1;
+}
+.link {
+    margin: 0 0 -1px 0;
+    padding: 10px;
+    position: relative;
+    background: #FFF;
+    border: 1px solid #DDD;
+}
+.link:last-child {
+    border: 1px solid #DDD;
+}
+.link .tagline {
+    color: #888;
+    font-size: x-small;
+    text-indent: 10px;
+    margin-top: -5px;
+}
+.link .flat-list {
+    font-size: x-small;
+    text-indent: 4px;
+    margin-top: -2px;
+}
+.link .usertext .md {
+    background: #fafafa;
+    border: solid #aaa;
+    border-width: 1px 1px 1px;
+    border-radius: 3px;
+    margin: 8px 0 0;
+    padding: 5px 10px;
+}
+.scorebar-likes {
+    display: none;
+}
+.scorebar-dislikes {
+    display: none;
+}
+.pagination-container .btn-whoaverse-paging,
+.btn-whoaverse-paging {
+    background: #427FED;
+    background-image: -webkit-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: -moz-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: -o-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: -ms-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: linear-gradient(to bottom, #4D90FE, #4787ED);
+    border: 1px solid #3079ED;
+    border-radius: 2px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+}
+.footer:before {
+    color: #CCC;
+    content: "/v/SlimDark theme";
+    display: block;
+    font-size: 15px;
+    color: #111;
+    margin: 0 0 15px;
+}
+.pagination-container .btn-whoaverse-paging:hover {
+    background: #4285F4;
+    border: 1px solid #4285F4;
+}
+.pagination-container .btn-whoaverse-paging:active {
+    background: #2C56B1;
+    border: 1px solid #369;
+    top: 0px;
+}
+.pagination-container .btn-whoaverse-paging a,
+.btn-whoaverse-paging {
+    color: #FFF!important;
+}
+.horizontal-line {
+    border-bottom: 1px solid #DDD;
+}
+.menuarea {
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 0px;
+    padding: 15px;
+    margin: 0px;
+    border-top: none;
+    border-bottom: none;
+}
+#container > div.content > div:nth-child(9) {
+    display: none;
+}
+.commentarea {
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 0px;
+    padding: 15px;
+    border-top: none;
+}
+.comment {
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    padding: 5px 8px 0 5px;
+}
+.comment,
+.comment .comment .comment,
+.comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 5px 8px 0 5px;
+    padding-bottom: 13px;
+}
+.comment .comment,
+.comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #f8f8f8;
+    border-radius: 2px;
+    padding: 5px 8px 0 5px;
+    padding-bottom: 13px;
+}
+.md blockquote {
+    background: none;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px 1px 1px 3px;
+    box-shadow: none;
+    font-size: inherit;
+    margin: 5px 5px;
+    padding: 0 8px 4px;
+    border-left: 2px solid #c5c1ad;
+}
+.stickied {
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+}
+.submission.stickied a.title,
+.submission.stickied a.title:visited,
+.submission.stickied a.title.visited {
+    font-weight: bold;
+    color: #282;
+}
+.side .titlebox .md h5 {
+    position: absolute;
+    right: 330px;
+    left: 20px;
+    z-index: 102;
+    height: auto;
+    top: 10px;
+    padding: 11px 11px 12px 16px;
+    border: 1px solid #DDD;
+    background-color: #FFF;
+    color: #4D5763;
+    font-weight: normal;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    line-height: 1;
+}
+.content {
+    margin-top: 49px;
+    z-index: 1;
+}
