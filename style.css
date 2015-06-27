@@ -11,6 +11,7 @@
     position: relative;
     z-index: 99;
 }
+
 #header-img-a {
     display: inline-block;
     vertical-align: top;
@@ -44,6 +45,7 @@
     position: relative;
     height: 43px;
 }
+
 
 #show-menu-button::before {
   top: -10px;
