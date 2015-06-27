@@ -2,6 +2,8 @@
 /* SlimDark CSS created by /u/Calorie-Kin */
 /* -------------------------------------- */
 
+/* change the url inside "background: url()" to your header image */
+/* width should be 1920px */
 #header {
     background: url(http://i.imgur.com/qwFzXUU.png) repeat-x #111 top right;
     height: 180px;
