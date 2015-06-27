@@ -430,9 +430,9 @@ body {
     z-index: 1;
 }
 
-@media (max-width: 870px)
+@media (max-width: 870px){
 .side .titlebox .md h5 {
   display:none;
-}
+}}
 
 /* Announement plug-in [END] */
