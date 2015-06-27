@@ -44,6 +44,11 @@
     position: relative;
     height: 43px;
 }
+
+#show-menu-button::before {
+  top: -10px;
+}
+
 .pagename {
     font-family: Arial, sans-serif;
     font-size: 11px;
