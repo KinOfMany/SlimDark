@@ -119,6 +119,12 @@
     color: #2b4758;
     font-weight: bold;
 }
+.tabmenu li.selected a.contribute:hover {
+    background: none;
+    border: none;
+    border-width: 0px;
+    color: #FFF!important;
+}
 .tabmenu li.disabled a,
 .tabmenu li.selected a {
     border: none;
@@ -423,6 +429,7 @@ body {
     .side {
           height: calc(100vh - 175px);
     }
+}
 
 /* Announement plug-in [START] */
 .side .titlebox .md h5 {
