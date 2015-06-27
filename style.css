@@ -46,6 +46,9 @@
     height: 43px;
 }
 
+#header-banner:focus {
+  outline: none;
+}
 
 #show-menu-button::before {
   top: -10px;
