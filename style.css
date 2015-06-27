@@ -407,6 +407,8 @@ body {
     font-weight: bold;
     color: #282;
 }
+
+/* Announement plug-in [START] */
 .side .titlebox .md h5 {
     position: absolute;
     right: 330px;
@@ -427,3 +429,10 @@ body {
     margin-top: 49px;
     z-index: 1;
 }
+
+@media (max-width: 870px)
+.side .titlebox .md h5 {
+  display:none;
+}
+
+/* Announement plug-in [END] */
