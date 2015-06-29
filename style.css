@@ -450,6 +450,9 @@ body {
     .pagename a {
       visibility: hidden;
     }
+    .link .tagline {
+      text-indent: 0px;
+    }
 }
 
 /* Announement plug-in [START] */
