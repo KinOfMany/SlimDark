@@ -435,7 +435,7 @@ body {
       background-color: #111;
     }
     .tabmenu li.disabled a {
-      background: #none!important;
+      background: none!important;
       border: 1px solid #d0d0d0;
       box-shadow: 0 1px 0 hsla(0,0%,0%,.1);
       color: #444;
@@ -443,6 +443,12 @@ body {
     .tabmenu li.selected a {
       background: #f8f8f8;
       box-shadow: none;
+    }
+    .logged-in {
+      font-size: xx-small;
+    }
+    .pagename {
+      display: none;
     }
 }
 
