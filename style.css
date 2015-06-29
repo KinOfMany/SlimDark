@@ -436,8 +436,8 @@ body {
     }
     .tabmenu li.disabled a {
       background: none!important;
-      border: 1px solid #d0d0d0;
-      box-shadow: 0 1px 0 hsla(0,0%,0%,.1);
+      border: none;
+      box-shadow: none;
       color: #444;
     }
     .tabmenu li.selected a {
@@ -447,8 +447,8 @@ body {
     .logged-in {
       font-size: xx-small;
     }
-    .pagename {
-      display: none;
+    .pagename a {
+      visibility: hidden;
     }
 }
 
