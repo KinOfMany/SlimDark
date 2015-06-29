@@ -430,6 +430,21 @@ body {
           height: calc(100vh - 175px);
     }
 }
+@media (max-width: 700px){
+    .tabmenu {
+      background-color: #111;
+    }
+    .tabmenu li.disabled a {
+      background: #none!important;
+      border: 1px solid #d0d0d0;
+      box-shadow: 0 1px 0 hsla(0,0%,0%,.1);
+      color: #444;
+    }
+    .tabmenu li.selected a {
+      background: #f8f8f8;
+      box-shadow: none;
+    }
+}
 
 /* Announement plug-in [START] */
 .side .titlebox .md h5 {
