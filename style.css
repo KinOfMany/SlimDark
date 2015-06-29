@@ -453,6 +453,10 @@ body {
     .link .tagline {
       text-indent: 0px;
     }
+    .side {
+      height: calc(100vh - 215px);
+      padding: 15px;
+    }
 }
 
 /* Announement plug-in [START] */
