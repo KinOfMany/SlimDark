@@ -455,3 +455,85 @@ body {
       padding: 15px;
     }
 }
+
+
+/* NIGHT SUPPORT */
+body.dark {
+  background: #292929;
+}
+
+.dark #header-container {
+  background: #111;
+  border-bottom: 1px solid #424242;
+}
+
+.dark .link {
+  background: #212121;
+  border: 1px solid #424242;
+}
+
+.dark .link:last-child {
+  border: 1px solid #424242;
+}
+
+.dark .titlebox {
+  background: #212121;
+  color:#BDBDBD;
+  border: 1px solid #424242;
+}
+
+.dark .side .titlebox .whoaversename a {color: #BDBDBD;}
+
+.dark .btn-whoaverse.contribute {
+  color: #EEEEEE;
+  background: #B71C1C;
+  background-image: -webkit-linear-gradient(top, #C62828, #B71C1C);
+  background-image: -moz-linear-gradient(top, #C62828, #B71C1C);
+  background-image: -o-linear-gradient(top, #C62828, #B71C1C);
+  background-image: -ms-linear-gradient(top, #C62828, #B71C1C);
+  background-image: linear-gradient(to bottom, #C62828, #B71C1C);
+  border: 1px solid #B71C1C;
+}
+
+.dark .btn-whoaverse.contribute:hover {
+  background: #B71C1C;
+  border: 1px solid #B71C1C;
+}
+
+.dark .sidecontentbox .content, .dark .side .spacer.spacersection {
+  background: #212121;
+  border: 1px solid #424242;
+}
+
+.alert-h1 {border-bottom:none;}
+
+.dark #container > div.side > div:nth-child(1) > form {
+  padding-bottom: 5px;
+  background: #212121;
+  border: 1px solid #424242;
+    color:#BDBDBD;
+}
+
+.dark .side .form-control {
+  border: 1px solid #424242;
+  background: #424242;
+}
+
+.dark .link .usertext .md {
+  background: #424242;
+  border: 1px solid #616161;
+  color:#BDBDBD;
+}
+
+.dark .menuarea {
+  background: #212121;
+  border: 1px solid #424242;
+}
+
+.dark .horizontal-line{border-bottom: 1px solid #424242;}
+
+.commentarea {
+  background: transparent;
+  border: none;
+
+}
