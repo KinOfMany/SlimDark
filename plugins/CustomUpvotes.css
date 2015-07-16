@@ -1,0 +1,65 @@
+/* Upvote arrow */
+.arrow-upvote {
+    width: 0px;
+    background-image:none;
+    height: 0;
+    border-bottom: 16px solid #bdbdbd;
+    border-left: 8px solid #fff;
+    border-left-color:transparent;
+    border-right: 8px solid #fff;
+    border-right-color:transparent;
+    margin-bottom:6px;
+    background:none!important;
+}
+.arrow-upvoted {
+    width: 0px;
+    background-image:none;
+    height: 0;
+    border-bottom: 16px solid #0D47A1;
+    border-left: 8px solid #fff;
+    border-left-color:transparent;
+    border-right: 8px solid #fff;
+    border-right-color:transparent;
+    margin-bottom:6px;
+    background:none!important;
+}
+/* Downvote arrow */
+.arrow-downvote {
+    width: 0px;
+    height: 0;
+    margin-top:8px;
+    background-image: none;
+    border-top: 16px solid #BDBDBD;
+    border-left: 8px solid #FFF;
+    border-left-color: transparent;
+    border-right: 8px solid #FFF;
+    border-right-color: transparent;
+    background:none!important;
+}
+.arrow-downvoted {
+    width: 0px;
+    height: 0;
+    margin-top: 8px;
+    background-image: none;
+    border-top: 16px solid #4A148C;
+    border-left: 8px solid #FFF;
+    border-left-color: transparent;
+    border-right: 8px solid #FFF;
+    border-right-color: transparent;
+    background:none!important;
+}
+.dark .arrow-downvoted {border-top: 16px solid #4A148C;}
+.dark .arrow-upvoted {border-bottom: 16px solid #0D47A1;}
+.light .arrow-downvoted {border-top: 16px solid #6A1B9A;}
+.light .arrow-upvoted {border-bottom: 16px solid #1565C0;}
+
+/* Score */
+.link .score.likes {
+    color: #0D47A1; 
+}
+.link .score.dislikes {
+    color: #6A1B9A; 
+}
+.link .score.unvoted {
+    color: #bbb; 
+}
