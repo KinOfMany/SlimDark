@@ -376,25 +376,51 @@ body {
     border-radius: 2px;
     padding: 5px 8px 0 5px;
 }
-.comment,
-.comment .comment .comment,
-.comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment .comment .comment {
+.light .comment,
+.light .comment .comment .comment,
+.light .comment .comment .comment .comment .comment,
+.light .comment .comment .comment .comment .comment .comment .comment,
+.light .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background-color: #ffffff;
     border-radius: 2px;
     padding: 5px 8px 0 5px;
     padding-bottom: 13px;
 }
-.comment .comment,
-.comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+.light .comment .comment,
+.light .comment .comment .comment .comment,
+.light .comment .comment .comment .comment .comment .comment,
+.light .comment .comment .comment .comment .comment .comment .comment .comment,
+.light .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background-color: #f8f8f8;
     border-radius: 2px;
     padding: 5px 8px 0 5px;
     padding-bottom: 13px;
+}
+.dark .comment{
+border: 1px solid #212121;
+}
+
+.dark .comment,
+.dark .comment .comment .comment,
+.dark .comment .comment .comment .comment .comment,
+.dark .comment .comment .comment .comment .comment .comment .comment,
+.dark .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #212121;
+    border-radius: 2px;
+    padding: 5px 8px 0 5px;
+    padding-bottom: 13px;
+    color:#eee;
+}
+.dark .comment .comment,
+.dark .comment .comment .comment .comment,
+.dark .comment .comment .comment .comment .comment .comment,
+.dark .comment .comment .comment .comment .comment .comment .comment .comment,
+.dark .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #424242;
+    border-radius: 2px;
+    padding: 5px 8px 0 5px;
+    padding-bottom: 13px;
+    color:#eee;
 }
 .md blockquote {
     background: none;
@@ -453,6 +479,9 @@ body {
     .side {
       height: calc(100vh - 215px);
       padding: 15px;
+    }
+    #container {
+      top:30px;
     }
 }
 
@@ -536,4 +565,46 @@ body.dark {
   background: transparent;
   border: none;
 
+}
+
+/* Search magic */
+form input[type=checkbox], form input[type=radio] {
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s ease 0.8s,opacity 0.8s ease;
+}
+
+#container > div.side > div:nth-child(1) > form > label{
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s ease 0.8s,opacity 0.8s ease;
+}
+
+#container > div.side > div:nth-child(1) > form:hover > #l{
+    visibility:visible;
+    opacity:1;
+    transition-delay:0s;
+}
+
+#container > div.side > div:nth-child(1) > form:hover > label{
+    visibility:visible;
+    opacity:1;
+    transition-delay:0s;
+}
+
+#container > div.side > div:nth-child(1) > form {
+  background: #F5F5F5;
+  border: 1px solid #DDD;
+  z-index: 11;
+  padding: 5px 6px 0px 6px;
+  /*height: 40px;*/
+  max-height: 40px;
+  	-webkit-transition: max-height 0.8s ease;
+	-moz-transition: max-height 0.8s ease;
+	transition: max-height 0.8s ease;
+}
+
+#container > div.side > div:nth-child(1) > form:hover {
+  max-height: 80px;
+  transition-delay:0s;
 }
