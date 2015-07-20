@@ -21,14 +21,15 @@
     top: -75px;
 }
 #sr-header-area {
-    background: #F5F5F5;
-    border-bottom: 1px solid #dcdcdc;
+    background: #111;
+    border-bottom: none;
     font-size: 12px;
     height: 24px;
     line-height: 22px;
     text-transform: none;
     white-space: nowrap;
 }
+
 #header-container {
     background: #111;
     border-bottom: 1px solid #dcdcdc;
@@ -55,6 +56,9 @@
 #show-menu-button::before {
   top: -10px;
 }
+
+#sr-bar li a {color: #CCC;}
+#sr-header-area:hover #sr-bar li a {color: #CCC;}
 
 .pagename {
     font-family: Arial, sans-serif;
@@ -217,6 +221,7 @@ body {
 #container {
     background: none;
     border: none;
+    z-index: 22;
 }
 .btn-group-xs>.btn,
 .btn-xs {
@@ -368,14 +373,27 @@ body {
     background: #FFF;
     border: 1px solid #DDD;
     border-radius: 0px;
-    padding: 15px;
     border-top: none;
+    padding: 15px 0 15px 0;
+    margin-top: -15px;
 }
 .comment {
     border: 1px solid #DDD;
     border-radius: 2px;
     padding: 5px 8px 0 5px;
 }
+
+#container > div.content > div:nth-child(8){
+    padding-bottom:0;
+}
+#container > div.content > div:nth-child(9){
+    padding-top:8px;
+    border-bottom: 1px solid;
+}
+
+.dark #container > div.content > div:nth-child(9){border-color: #424242}
+.light #container > div.content > div:nth-child(9){border-color: #DDD}
+
 .light .comment,
 .light .comment .comment .comment,
 .light .comment .comment .comment .comment .comment,
@@ -556,7 +574,7 @@ body.dark {
 
 .dark .menuarea {
   background: #212121;
-  border: 1px solid #424242;
+  border-color: #424242;
 }
 
 .dark .horizontal-line{border-bottom: 1px solid #424242;}
@@ -565,46 +583,4 @@ body.dark {
   background: transparent;
   border: none;
 
-}
-
-/* Search magic */
-form input[type=checkbox], form input[type=radio] {
-    visibility:hidden;
-    opacity:0;
-    transition:visibility 0s ease 0.8s,opacity 0.8s ease;
-}
-
-#container > div.side > div:nth-child(1) > form > label{
-    visibility:hidden;
-    opacity:0;
-    transition:visibility 0s ease 0.8s,opacity 0.8s ease;
-}
-
-#container > div.side > div:nth-child(1) > form:hover > #l{
-    visibility:visible;
-    opacity:1;
-    transition-delay:0s;
-}
-
-#container > div.side > div:nth-child(1) > form:hover > label{
-    visibility:visible;
-    opacity:1;
-    transition-delay:0s;
-}
-
-#container > div.side > div:nth-child(1) > form {
-  background: #F5F5F5;
-  border: 1px solid #DDD;
-  z-index: 11;
-  padding: 5px 6px 0px 6px;
-  /*height: 40px;*/
-  max-height: 40px;
-  	-webkit-transition: max-height 0.8s ease;
-	-moz-transition: max-height 0.8s ease;
-	transition: max-height 0.8s ease;
-}
-
-#container > div.side > div:nth-child(1) > form:hover {
-  max-height: 80px;
-  transition-delay:0s;
 }
