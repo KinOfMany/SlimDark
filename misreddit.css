@@ -1,0 +1,460 @@
+body{
+    background: #FFF;
+    font: x-small verdana,arial,helvetica,sans-serif;
+}
+#header {
+    border-bottom: 1px solid #5F99CF;
+    background-color: #CEE3F8;
+    height: 65px;
+}
+
+#header-container {
+    background: transparent;
+    border-bottom: none;
+    border-top: none;
+    bottom: 0px;
+    height: 58px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
+#header-banner {
+    font-size: 13px;
+    margin: 0px auto;
+    max-width: none;
+    position: relative;
+    top: -5px;
+    height: 64px;
+}
+
+.sr-list .sr-bar a, #sr-bar li a{
+    color: #000;
+    text-transform: uppercase;
+
+}
+#sr-more-link {height: 18px; background: #F0F0F0; font-weight: bold;}
+#sr-header-area {
+    background-color: #F0F0F0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-bottom: 1px solid #808080;
+    font-size: 90%;
+    height: 18px;
+    line-height: 18px;
+}
+.tabmenu{margin-top: 26px; }
+.tabmenu li{margin: 0px 0px;}
+.tabmenu li a {
+    padding: 2px 6px 0px;
+    background-color: #EFF7FF;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-right: 1px;
+}
+
+.tabmenu li.selected a {
+    border-radius:0px;
+    color: #FF4500;
+    background: #FFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5F99CF #5F99CF #FFF;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    z-index: 100;
+}
+.tabmenu li.disabled a{
+    color: #369;
+    border-radius:0px;
+    border: none;
+    
+}
+.tabmenu li.disabled a:hover{
+    color: #369;
+    border-radius:0px;
+    border: none;
+    background: #EFF7FF;
+}
+.tabmenu li.disabled a:hover{
+    color: #369;
+    border-radius:0px;
+    border: none;
+}
+
+.tabmenu li.disabled a.contribute {
+    background: #EFF7FF;
+    border-color: #61AFE0;
+    border: none;
+    color: #369;
+}
+.tabmenu li.disabled a.contribute:hover {
+    background: #EFF7FF;
+    border-color: #61AFE0;
+    border: none;
+    color: #369;
+}
+.pagename {
+    font-weight: bold;
+    margin-right: 1px;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    padding: 0;
+    padding-bottom: 3px;
+    margin-right: -5px;
+    vertical-align: bottom;
+}
+.pagename a{
+    color: #000;
+}
+
+#header-img {
+    margin: 0;
+    margin-top: 26px;
+    vertical-align: 20px;
+    margin-right: -10px;
+}
+#header-img-a {
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+}
+
+.logged-in {
+    right: 0px;
+    bottom: 0px;
+    background-color: #EFF7FF;
+    padding: 4px;
+    padding-top: 0px;
+    border-top-left-radius: 7px;
+    margin: 0px;
+    height: 20px;
+    margin-bottom: 1px;
+    border: none;
+    font: x-small verdana,arial,helvetica,sans-serif;
+}
+
+#header-account a {
+    color: #808080;
+}
+.user .userkarma {border:none; margin: 0; font-weight: bold; }
+span.user:nth-child(1) > a:nth-child(1){color: #369!important;}
+span.userkarma:nth-child(2):before{content: '('}
+span.userkarma:nth-child(2) {color: #808080!important;}
+span.userkarma:nth-child(2):after{content: ')'}
+.user .upvoatsGiven a {border:none;}
+
+/* --------- */
+/*  CONTENT  */
+/* --------- */
+
+#container {
+    background: #FFF none repeat scroll 0% 0%;
+    border: none;
+    display: block;
+    margin: 0px 5px 0px 3px;
+    top: -3px;
+    max-width: none;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+}
+.content {
+    margin: 0px 320px 0px 3px;
+    z-index: 1;
+}
+.scorebar {
+    display:none;
+}
+.link{padding: 0; margin-bottom: 11px; background: none; }
+.link .score{margin-top: 2px; margin-left: 0px; margin-bottom: 4px;}
+.midcol {
+    float: left;
+    margin-right: 8px;
+    margin-left: 27px;
+    background: transparent none repeat scroll 0% 0%;
+    overflow: hidden;
+}
+.arrow-upvote {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -84px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.arrow-downvote {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -42px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.arrow-upvoted {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -105px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.arrow-downvoted {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -63px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.link .title {
+    line-height: 22px;
+    padding: 0px 0px 0px 0px;
+    margin: -1px 0px 0 0px;
+}
+
+.link a.title.may-blank {font-weight: normal; color:#00f}
+.submission.stickied a.title{ color: #282;font-weight: bold;}
+
+.expando-button {
+    float: left;
+    margin: -1px 5px 2px 1px;
+    cursor: pointer;
+}
+.tagline {
+    color: #888;
+    font-size: x-small!important;
+    margin-top: -5px;
+}
+.link .flat-list {
+    font-size: x-small!important;
+    margin-top: 1px;
+}
+.expando-button.selftext.collapsed {
+    background: transparent url("https://veuwer.com/i/2y7y.png") no-repeat scroll -90px -547px;
+    height: 23px;
+    width: 23px;
+}
+.expando-button.selftext.collapsed:hover {
+    background: transparent url("https://veuwer.com/i/2y7y.png") repeat scroll -61px -547px;
+    height: 23px;
+    width: 23px;
+}
+
+/* --------- */
+/*    SIDE   */
+/* --------- */
+
+.side {
+    width:300px;
+    padding: 0px;
+    padding-top: 4px;
+    margin: -7px 0px 0px;
+}
+
+#q{
+    border-radius: 0px;
+    border-color: #808080;
+    margin-bottom: 13px;
+}
+form input[type="checkbox"], form input[type="radio"] {
+    display: none;
+}
+label {
+    display: none;
+}
+
+.btn-whoaverse.contribute {
+    display: block;
+    text-align: center;
+    position: relative;
+    border: 1px solid #C4DBF1;
+    background: #FFF url("https://veuwer.com/i/2y7y.png") repeat scroll 0px -278px;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 19px;
+    height: 31px;
+    color: #369;
+    font-size: 0px;
+    border-radius: 0;
+    margin-bottom: 12px;
+}
+.btn-whoaverse.contribute:hover {
+    display: block;
+    text-align: center;
+    position: relative;
+    border: 1px solid #879EB4;
+    background: #FFF url("https://veuwer.com/i/2y7y.png") repeat scroll 0px -243px;;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 19px;
+    height: 31px;
+    color: #FFF;
+    font-size: 0px;
+    border-radius: 0;
+    margin-bottom: 12px;
+}
+.btn-whoaverse.contribute.submit-link:after {
+    font-size: 15px;
+    content: 'Submit a new link';
+}
+.btn-whoaverse.contribute.submit-text:after {
+    font-size: 15px;
+    content: 'Submit a new text post';
+}
+
+.md-small .-text, .side .md .-text, .side .md p, .side .md pre > code, .side .md th, .side .md td, .side .md li {
+    font-size: 1em;
+    line-height: 1.25em;
+    color: #222;
+}
+
+/* ------------- */
+/*    COMMENTS   */
+/* ------------- */
+
+.commentarea{
+    margin-top:34px;
+    margin-left: 7px;
+}
+.comment .arrow-upvote {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -84px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.comment .arrow-downvote {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -42px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.comment .arrow-upvoted {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -105px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.comment .arrow-downvoted {
+    background-image: url("https://veuwer.com/i/2y7y.png");
+    background-position: -63px -818px;
+    background-repeat: no-repeat;
+    margin: 2px auto 0px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    outline: medium none;
+}
+.comment .midcol {
+    margin-top: -1px;
+    margin-left: 10px;
+}
+.tagline {
+    margin-top: -3px;
+}
+.comment {
+    margin: 10px 0px 0px;
+    margin-left: -8px;
+    overflow: hidden;
+}
+.md .-blocks, .md .-lists, .md pre, .md blockquote, .md table, .md p, .md ul, .md ol {
+    margin-top: 0.357143em;
+    margin-bottom: 0.357143em;
+    color: #222;
+    max-width: 60em;
+    word-wrap: break-word;
+    font-size: 1.07692em;
+}
+.comment .usertext{
+    margin-top: -2px;
+    margin-left: -1px;
+}
+
+.tagline .post_upvotes {
+    color: #ff8c00;
+    font-size: 95%;
+    font-weight: bold;
+    padding: 0px 1px 0px 2px;
+    visibility: visible;
+}
+.tagline .post_downvotes {
+    color: #9393ff;
+    font-size: 95%;
+    font-weight: bold;
+    padding: 0px 1px 0px 2px;
+    visibility: visible;
+}
+
+
+.comment .child, .comment .showreplies {
+    border: none;
+    margin-top: 10px;
+    margin-left: 33px;
+    padding-left: 0px;
+    border-radius: 0px;
+    border-left: 1px dotted #DDF;
+    background: #FFF;
+}
+.comment .comment, .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #FFF;
+}
+.comment a.author {
+    color: #369;
+}
+.comment a.submitter {
+    color: #0055DF;
+}
+.menuarea {
+    border: 0px none;
+    font-size: larger;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0px;
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+.menuarea ~ .menuarea {margin-left: -110px;}
+.dropdown.lightdrop .selected {
+    padding-right: 0px;
+}
+.label-default {
+    margin-top: -1px;
+    background: #FFF;
+    font-size: inherit;
+}
+.label{padding-top: 4px}
