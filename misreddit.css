@@ -460,4 +460,6 @@ label {
 .label{padding-top: 4px}
 
 @media (max-width: 750px){
-.content {margin-right: 3px;}}
+.content {margin-right: 3px;margin-top: 35px;}
+.tabmenu {margin-top: 0px;}
+}
