@@ -458,3 +458,6 @@ label {
     font-size: inherit;
 }
 .label{padding-top: 4px}
+
+@media (max-width: 750px){
+.content {margin-right: 3px;}}
